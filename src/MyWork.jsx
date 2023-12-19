@@ -1,6 +1,7 @@
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { useGSAP } from '@gsap/react';
+import { useGSAP } from '@gsap/react'
+
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -47,7 +48,6 @@ const MyWork = () => {
             </div>
             <div id="cardWrapper" className='w-full'>
                 <div className='cardsScroll flex flex-row items-center'>
-
                     <div className='flex flex-row justify-around mt-10 mb-10 ml-52 overflow-x-auto w-1/6 py-12 px-12'>
                         <div className='flex flex-col items-left w-screen'>
                             <p className='font-grotesk text-left text-xl text-black'>00/07/2023</p>
@@ -55,7 +55,6 @@ const MyWork = () => {
                             <p className='text-green text-4xl text-left mb-4'>FRONTEND PROJECT</p>
                         </div>
                     </div>
-
                     <div className='flex flex-row justify-around my-10 ml-12 overflow-x-auto w-1/6  py-12 px-12'>
                         <div className='flex flex-col items-left w-screen'>
                             <p className='font-grotesk text-left text-xl text-black'>00/07/2023</p>
@@ -63,7 +62,6 @@ const MyWork = () => {
                             <p className='text-green text-4xl text-left mb-4'>FRONTEND PROJECT</p>
                         </div>
                     </div>
-
                     <div className='flex flex-row justify-around my-10 ml-12 overflow-x-auto w-1/6  py-12 px-12'>
                         <div className='flex flex-col items-left w-screen'>
                             <p className='font-grotesk text-left text-xl text-black'>00/07/2023</p>
